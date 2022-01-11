@@ -2913,7 +2913,7 @@ a.list-item { background-color: whitesmoke; cursor: pointer; }
 
 .modal-close { background: none; height: 40px; position: fixed; right: 20px; top: 20px; width: 40px; }
 
-.modal-card { display: -webkit-box; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; flex-direction: column; max-height: calc(100vh - 40px); overflow: hidden; -ms-overflow-y: visible; }
+.modal-card { display: -webkit-box; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; flex-direction: column; max-height: calc(100vh - 40px); overflow: hidden; }
 
 .modal-card-head, .modal-card-foot { -webkit-box-align: center; align-items: center; background-color: whitesmoke; display: -webkit-box; display: flex; flex-shrink: 0; -webkit-box-pack: start; justify-content: flex-start; padding: 20px; position: relative; }
 
@@ -4818,7 +4818,7 @@ input[name="carousel"] { display: none; }
 
 .carousel-slides .carousel-item { float: left; width: 20%; }
 
-#carousel-1:checked ~ .carousel-nav label[for="carousel-1"] { background-color: #7510F7; border: 2px solid #7510F7; }
+#carousel-1:checked ~ .carousel-nav label[for="carousel-1"] { background-color: rgb(22, 123, 189); border: 2px solid rgb(22, 123, 189); }
 
 #carousel-2:checked ~ .carousel-nav label[for="carousel-2"] { background-color: #7510F7; border: 2px solid #7510F7; }
 
@@ -5253,4 +5253,18 @@ a, .button {
   }
 
 
+}
+
+
+.social-links {
+  margin-top: -20px;
+  margin-bottom: -20px;
+}
+
+.social-links a img {
+  height: 40px;
+}
+
+.copyright a {
+  color: #fff;
 }
